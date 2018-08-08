@@ -1,0 +1,180 @@
+<!doctype HTML>
+
+<HTML lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>
+			Next Project Technology
+		</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/estilos.css">
+		<link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)">
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+		<script language="JavaScript" src="js/script.js"></script>
+	</head>
+	<body onLoad="Mostrar()">
+		<!-- Conteúdo da "Home" -->
+		<section id="Home" class="content">
+		<header class="container"><!-- Conteúdo do "cabeçalho" -->
+			<nav id="menu"><!-- Conteúdo do "Menu" -->
+				<ul>
+					<a href="index.html">
+						<img src="img/logo.png" class="Logo">
+					</a>
+					<li>
+						<a href="#Home" class="Home">Início</a>
+					</li>
+					<li>
+						<a href="#Empresa" class="Empresa">Empresa</a>
+					</li>
+					<li>
+						<a href="#Suporte" class="Suporte">Suporte</a>
+					</li>
+					<li>
+						<a href="#Contato" class="Contato">Contato</a>
+					</li>
+					<a href="index2.html">
+						<img src="img/EN1.png" class="Tradutor">
+					</a>
+				</ul>				
+			</nav><!-- Fim do conteúdo do "Menu"-->
+			</br></br></br></br></br></br></br></br>
+		</header><!-- Fim do conteúdo do "cabeçalho" -->
+		<!-- Fim do conteúdo da "Home" -->
+		<p>&nbsp;</p>&nbsp;
+		<p>&nbsp;</p>&nbsp;
+		<div class="quadro">
+          <img id="img" src="img/destaque-home.jpg" name="Imagem_Pagina"/>
+ 	 </div>
+		<section id="Empresa" class="content"><!-- Conteúdo da "Empresa" -->
+			<p>&nbsp;</p>&nbsp;
+			<p>&nbsp;</p>&nbsp;
+			
+			<div class="box"><h1>
+				 <h2>A Next Project Technology</h2>
+			</h1>
+			
+				<p>
+					Fundada	em 2018, a Next Project Technology tem como foco o desenvolvimento de soluções web, entre elas a criação de sites e criação de sistemas.
+					O nosso principal objetivo é concretizar ideias, sejam com produtos próprios ou sistemas sob medida para seus clientes, desenvolvendo projetos com comprometimento, rapidez e qualidade.
+				</p>
+				<h2>
+					Missão
+				</h2>
+				<p>
+					Nossa missão é desenvolver, comercializar, implantar e oferecer suporte a sites e softwares administrativos de qualidade e com tecnologia de ponta, objetivando manter o foco em nossos clientes.
+				</p>
+				<h2>
+					Visão
+				</h2>
+				<p>
+					Crescer continuamente investindo em novas tecnologias e profissionais capacitados para atender cada vez melhor os nossos clientes.
+				</p>
+				<h2>
+					Valores
+				</h2>
+				<ul>
+					<li>
+						Ética
+					</li>
+					<li>
+						Parceria
+					</li>
+					<li>
+						Comprometimento
+					</li>
+					<li>
+						Transparência
+					</li>
+					<li>
+						Rentabilidade
+					</li>
+				</ul>
+			</div>
+		</section><!-- Fim do conteúdo da "Empresa" -->
+		<section id="Suporte" class="content"><!-- Conteúdo do "Suporte" -->
+			<p>&nbsp;</p>&nbsp;
+			<p>&nbsp;</p>&nbsp;
+			<div class="box"><div>
+				<h2>
+					PERGUNTAS FREQUENTES:
+				</h2>
+			</div>
+				<h1>
+					Meu site aparecerá no Google?
+				<input class="btn" type='button' onclick='pergunta1()' value='Resposta'/><h3>
+			</h3></button></h1>
+			<div id="resposta1">
+			</div>&nbsp;
+				<h1><p>
+					Site One Page é bom para minha empresa?
+				<input class="btn" type='button' onclick='pergunta2()' value='Resposta'/><h3></p>
+			</h3></button></h1>
+			<div id="resposta2">
+			</div>&nbsp;
+				<h1><p>
+					Qual será a linguagem usada no programa?
+				<input class="btn" type='button' onclick='pergunta3()' value='Resposta'/><h3></p>
+				</h3></button></h1>
+				<div id="resposta3">
+				</div>&nbsp;
+				<h1><p>
+					Após receber o sistema pronto eu vou ter algum treinamento?
+				<input class="btn" type='button' onclick='pergunta4()' value='Resposta'/><h3></p>
+				</h3></button></h1>
+				<div id="resposta4">
+				</div>&nbsp;
+			</div>
+		</section><!-- Fim do conteúdo do "Suporte" -->
+		<section id="Contato" class="content"><!-- Conteúdo do "Contato" -->
+			<p>&nbsp;</p>&nbsp;
+			<p>&nbsp;</p>&nbsp;
+			<div class="box"><form id="form1" autocomplete="on" method="get" target="auto">
+					<h1>
+						<br/>
+						<h3>
+							PREENCHA SEUS DADOS
+							<hr/>
+						</h3>
+						* Nome Completo:
+						<input placeholder="João Nascimento De Jesus" id="nome" type="text" required="on" size="72" maxlength="100"/>
+						</br></br>
+						* E-mail:
+						<input placeholder="joao.nascimento@mail.com" id="email" type="email" required="on" size="72" maxlength="100"/>
+						</br></br>						
+						* Telefone:
+						<input placeholder="(11) 9 9999-9999" id="tel" type="tel" required="on" size="72" maxlength="16"/>
+						</br><br/><br/>
+						<hr/>
+					    <h3>
+					    	Mensagem:
+					    </h3>
+					    <TEXTAREA id="coment" cols="74" rows="5" required="on"></TEXTAREA>
+					    <br/>
+						<input class="btn2" type="submit" value="ENVIAR" onClick="Enviar()">
+						<input class="btn2" type="reset" value="LIMPAR" onClick="limpar()"/>
+						<h3>
+							&nbsp;
+						</h3>
+					</h1>
+			</form></div><p>&nbsp;</p>&nbsp;
+		</section><!-- Fim do conteúdo do "Contato" -->
+		<footer id="rodapé"><!-- Conteúdo do "rodapé"	-->
+			<div class="container">
+				&copy;	Copyright Next Project Technology
+				<ul	class="social">
+					<li>
+						<a href="http://facebook.com/NextProjectTechnology" target="_blank">Facebook</a>
+					</li>
+					<li>
+						<a href="http://twitter.com/NextProjectTechnology" target="_blank">Twitter</a>
+					</li>
+					<li>
+						<a href="http://plus.google.com/NextProjectTechnology" target="_blank">Google+</a>
+					</li>
+				</ul>
+			</div>
+		</footer><!-- Fim do conteúdo do "rodapé" -->
+	</body>
+</HTML>
