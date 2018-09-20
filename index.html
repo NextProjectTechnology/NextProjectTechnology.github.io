@@ -13,21 +13,12 @@
 	<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/theme.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="http://prepbootstrap.com/Content/shieldui-lite/dist/css/light/all.min.css" />
-
-
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
 </head>
 <body id="index">
 
 <!-- Navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
-		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 				<span class="sr-only">Toggle navigation</span>
@@ -36,10 +27,10 @@
 				<span class="icon-bar"></span>
 			</button>
 			<a href="#index" class="smooth-scroll" title="Next Project Technology">
-                <img class="logo" src="images/logo.png" alt="Business Theme Bootstrap Theme" style="margin-top:5px;" />
+                <img class="logo" src="images/logo.png" alt="Next Project Technology" style="margin-top:5px;" />
             </a>
 		</div>
-		<!-- Collect the nav links, forms, and other content for toggling -->
+		<!-- Menu -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#home" class="smooth-scroll">INÍCIO</a></li>
@@ -48,8 +39,8 @@
 				<li><a href="#team" class="smooth-scroll">EQUIPE</a></li>
 				<li><a href="#contact" class="smooth-scroll">CONTATO</a></li>
 			</ul>
-		</div><!-- /.navbar-collapse -->
-	</div><!-- /.container-fluid -->
+		</div>
+	</div>
 </nav>
 
 <div class="container-home">
@@ -65,9 +56,9 @@
     <div class="container">
 	    <div class="page-header" id="features">
 		    <h1 class="text-center">CARACTERISTICAS</h1>
-		    <h2 class="text-center">O que torna nosso trabalho único?<br /></h2>
+		    <h2 class="text-center">O que torna o nosso trabalho único?<br/></h2>
 	    </div>
-		<br />
+		<br/>
 		<div class="row text-center">
 			<div class="col-md-3">
 				<span class="features-circle text-center"><i class="fa fa-thumbs-up fa-5x" aria-hidden="true"></i></span>
@@ -162,32 +153,32 @@
         <div class="row text-center">
             <div class="col-md-2">
 				<img class="img-responsive" style="width:180px;" src="images/image1.jpg" />
-				<h2 class="text-danger">Carlos Henrique</h2>
+				<h2 class="text-danger">Carlos "Sombra"</h2>
                 <p>Analista de infraestrutura</p>
 			</div>
 			<div class="col-md-2">
 				<img class="img-responsive" style="width:180px;" src="images/image2.jpg" />
-				<h2 class="text-danger">Franccesco Felipe</h2>
+				<h2 class="text-danger">Franccesco "Totti"</h2>
 				<p>Analista desenvolvedor</p>
 			</div>
 			<div class="col-md-2">
 				<img class="img-responsive" style="width:180px;" src="images/image3.jpg" />
-				<h2 class="text-danger">Lucas Leopoldino</h2>
+				<h2 class="text-danger">Lucas "Mestre Splinter"</h2>
 				<p>Analista de banco de dados</p>
 			</div>
 			<div class="col-md-2">
 				<img class="img-responsive" style="width:180px;" src="images/image4.jpg" />
-				<h2 class="text-danger">Matheus Coutinho</h2>
+				<h2 class="text-danger">Matheus "Passarinho"</h2>
                 <p>Analista de sistemas</p>
 			</div>
 			<div class="col-md-2">
 				<img class="img-responsive" style="width:180px;" src="images/image5.jpg" />
-				<h2 class="text-danger">Wellington Bandeira</h2>
+				<h2 class="text-danger">Wellington "Salah"</h2>
 				<p>Analista de sistemas</p>
 			</div>
 			<div class="col-md-2">
 				<img class="img-responsive" style="width:180px;" src="images/image6.jpg" />
-				<h2 class="text-danger">Wesley Pires</h2>
+				<h2 class="text-danger">Wesley "Safadão"</h2>
 				<p>Web designer</p>
 			</div>
 		</div>
@@ -202,25 +193,27 @@
 			<br />
 			<div class="row">
 				<div class="col-md-6">
-					<div id="googlemap"></div>
+					<div>
+						<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:400px;width:100%;'><div id='gmap_canvas' style='height:400px;width:100%px;'></div><div><small><a href="https://embedgooglemaps.com/de/">embedgooglemaps DE</a></small></div><div><small><a href="http://eurodisneyaanbiedingen.nl/">hotels dichtbij disney</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(-23.5933806,-46.69130849999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-23.5933806,-46.69130849999999)});infowindow = new google.maps.InfoWindow({content:'<strong>Next Project Technology</strong><br>R. Gomes de Carvalho, 1996 - Vila Olímpia, São Paulo, Brasil<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+					</div>
 				</div>
 				<div class="col-md-6">
 					<form>
 						<div class="form-group">
 							<label for="form-name">Nome</label>
-							<input type="email" class="form-control" id="form-name" placeholder="Name">
+							<input type="email" class="form-control" id="form-name">
 						</div>
 						<div class="form-group">
 							<label for="form-email">E-mail</label>
-							<input type="email" class="form-control" id="form-email" placeholder="Email Address">
+							<input type="email" class="form-control" id="form-email">
 						</div>
 						<div class="form-group">
 							<label for="form-subject">Telefone</label>
-							<input type="text" class="form-control" id="form-subject" placeholder="Subject">
+							<input type="text" class="form-control" id="form-subject">
 						</div>
 						<div class="form-group">
-							<label for="form-message">Messagem</label>
-							<textarea class="form-control" id="form-message" placeholder="Message"></textarea>
+							<label for="form-message">Mensagem</label>
+							<textarea class="form-control" id="form-message"></textarea>
 						</div>
 						<button type="submit" class="btn btn-danger btn-lg">Enviar</button>
 						<br /><br />
@@ -254,7 +247,6 @@
 <script src="js/jquery.mixitup.min.js"></script>
 <link href="css/magnific-popup.css" rel="stylesheet">
 <script src="js/jquery.magnific-popup.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js"></script>
 <script src="js/theme.js"></script>
 <script type="text/javascript" src="http://prepbootstrap.com/Content/shieldui-lite/dist/js/shieldui-lite-all.min.js"></script>
 
@@ -265,34 +257,8 @@
         $('.container-gallery').magnificPopup({
             delegate: 'a',
             type: 'image'
-        });
-        // Google Maps setup
-        var googlemap = new google.maps.Map(
-            document.getElementById('googlemap'),
-            {
-                center: new google.maps.LatLng(44.5403, -78.5463),
-                zoom: 8,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            }
-        );
     });
 
-	$(document).ready(function () {
-        $("#order1").shieldQRcode({
-            mode: "byte",
-            size: 150,
-            value: "https://somesite/order?plan=1"
-        });
-        $("#order2").shieldQRcode({
-            mode: "byte",
-            size: 150,
-            value: "https://somesite/order?plan=2"
-        });
-        $("#order3").shieldQRcode({
-            mode: "byte",
-            size: 150,
-            value: "https://somesite/order?plan=3"
-        });
     });
 </script>
 
