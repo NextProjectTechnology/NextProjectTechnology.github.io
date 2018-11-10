@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet" type="text/css">
 	<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/theme.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/icon.png"/>
 	<link rel="stylesheet" type="text/css" href="http://prepbootstrap.com/Content/shieldui-lite/dist/css/light/all.min.css" />
 </head>
 <body id="index">
@@ -27,13 +28,13 @@
 				<span class="icon-bar"></span>
 			</button>
 			<a href="#index" class="smooth-scroll" title="Next Project Technology">
-                <img class="logo" src="images/logo.png" alt="Next Project Technology" style="margin-top:5px;" />
+                <img class="logo" src="images/logo.png" alt="Next Project Technology" style="margin-top:5px;"/>
             </a>
 		</div>
 		<!-- Menu -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#home" class="smooth-scroll">INÍCIO</a></li>
+				<li><a href="#index" class="smooth-scroll">INÍCIO</a></li>
 				<li><a href="#features" class="smooth-scroll">CARACTERISTICAS</a></li>
 				<li><a href="#gallery" class="smooth-scroll">PORTFOLIO</a></li>
 				<li><a href="#team" class="smooth-scroll">EQUIPE</a></li>
@@ -46,8 +47,8 @@
 <div class="container-home">
     <div class="container">
 	    <div class="page-header" id="home">
-		    <h1 class="text-center text-danger">NEXT PROJECT TECHNOLOGY</h1>
-			<br />
+		    <h1 class="text-center text-danger"> </h1>
+			<br/>
 	    </div>
     </div>
 </div>
@@ -194,28 +195,29 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div>
-						<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:400px;width:100%;'><div id='gmap_canvas' style='height:400px;width:100%px;'></div><div><small><a href="https://embedgooglemaps.com/de/">embedgooglemaps DE</a></small></div><div><small><a href="http://eurodisneyaanbiedingen.nl/">hotels dichtbij disney</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(-23.5933806,-46.69130849999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-23.5933806,-46.69130849999999)});infowindow = new google.maps.InfoWindow({content:'<strong>Next Project Technology</strong><br>R. Gomes de Carvalho, 1996 - Vila Olímpia, São Paulo, Brasil<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+						<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyA4ZU_slAsIAp3AFL1_hu2Gtjht7hsSsGw&callback=initMap'></script><div style='overflow:hidden;height:400px;width:100%;'><div id='gmap_canvas' style='height:400px;width:100%px;'></div><div><small><a href="https://embedgooglemaps.com/de/">embedgooglemaps DE</a></small></div><div><small><a href="http://eurodisneyaanbiedingen.nl/">hotels dichtbij disney</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(-23.52146659220825,-46.70339991764808),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-23.52146659220825,-46.70339991764808)});infowindow = new google.maps.InfoWindow({content:'<strong>Next Project Technology</strong><br>Rua Monteiro de Melo, 17, Lapa - São Paulo, Brasil<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<form>
 						<div class="form-group">
 							<label for="form-name">Nome</label>
-							<input type="email" class="form-control" id="form-name">
+							<input type="text" class="form-control" id="form-name" required="on">
 						</div>
 						<div class="form-group">
 							<label for="form-email">E-mail</label>
-							<input type="email" class="form-control" id="form-email">
+							<input type="email" class="form-control" id="form-email" required="on">
 						</div>
 						<div class="form-group">
 							<label for="form-subject">Telefone</label>
-							<input type="text" class="form-control" id="form-subject">
+							<input type="text" class="form-control" id="form-fone">
 						</div>
 						<div class="form-group">
 							<label for="form-message">Mensagem</label>
-							<textarea class="form-control" id="form-message"></textarea>
+							<textarea class="form-control" id="form-message" required="on"></textarea>
 						</div>
-						<button type="submit" class="btn btn-danger btn-lg">Enviar</button>
+						<button type="submit" class="btn btn-danger btn-lg" onclick="Enviar();" value="Enviar">Enviar</button>
+						<button type="reset" class="btn btn-danger btn-lg" value="Limpar">Limpar</button>
 						<br /><br />
 					</form>
 				 </div>
@@ -228,15 +230,9 @@
     <div class="container">
         <div class="row">
 			<div class="col-md-8">
-                <p>© Copyright Next Project Technology</p>
+                <p>© Copyright Next Project Technology - 2018</p>
             </div>
-			<div class="col-md-4">
-                <p>
-                    <a class="fa fa-twitter footer-socialicon" target="_blank" href="https://twitter.com/"></a>
-                    <a class="fa fa-facebook footer-socialicon" target="_blank" href="https://www.facebook.com/"></a>
-                    <a class="fa fa-google-plus footer-socialicon" target="_blank" href="https://plus.google.com/"></a>
-                </p>
-            </div>
+			
             
         </div>
     </div>

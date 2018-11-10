@@ -90,3 +90,18 @@ jQuery(function($) {
         }
     });
 });
+
+
+function limpar()
+    {
+      document.getElementById("form-nome").focus();
+    }
+function Enviar() {
+ 
+    var nome = document.getElementById("form-nome");
+ 
+    if (nome.value != "") {
+        alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso, entraremos em contato em breve.');
+    }
+ 
+}

@@ -1939,6 +1939,8 @@ pre code {
   }
   .col-md-8 {
     width: 66.66666667%;
+    margin: 0 350px 10px;
+    font-size: 18px;
   }
   .col-md-7 {
     width: 58.33333333%;
@@ -6800,7 +6802,7 @@ h2 {
     width: 100%;
     display: inline-block;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 120px;
     background: url(../images/background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -6815,7 +6817,7 @@ h2 {
     line-height: 180px;
     border-radius: 50%;
     color: #fff;
-    background-color: #43ca84;
+    background-color: #0085c8;
     display: inline-block;
 }
 
@@ -6995,7 +6997,8 @@ h2 {
 	padding-top: 20px;
 	padding-bottom: 50px;
 	color: #4E5152;
-	background: url(../images/background.jpg) no-repeat center center fixed;
+  background-color: #f1f2f2;
+	/*background: url(../images/background.jpg) no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
