@@ -92,7 +92,7 @@ jQuery(function($) {
 });
 
 
-function limpar()
+function Limpar()
     {
       document.getElementById("form-nome").focus();
     }

@@ -1939,7 +1939,7 @@ pre code {
   }
   .col-md-8 {
     width: 66.66666667%;
-    margin: 0 350px 10px;
+    margin: 0% 0% 0% 32%;
     font-size: 18px;
   }
   .col-md-7 {
@@ -3105,8 +3105,8 @@ fieldset[disabled] .btn-default.focus {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #3b5986;
-  border-color: #334d74;
+  background-color: #0085c8;
+  border-color: #055e9e;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -3364,8 +3364,8 @@ fieldset[disabled] .btn-warning.focus {
 .btn-danger.active.focus,
 .open > .dropdown-toggle.btn-danger.focus {
   color: #ffffff;
-  background-color: #d0341a;
-  border-color: #952513;
+  background-color: #055e9e;
+  border-color: #808285;
 }
 .btn-danger:active,
 .btn-danger.active,
@@ -6982,22 +6982,36 @@ h2 {
 	padding-bottom: 50px;
 }
 
-.container-newsletter {
+.container-support {
 	padding-top: 20px;
 	padding-bottom: 50px;
-	background: url(../images/background.jpg) no-repeat center center fixed;
+	background-color:#f1f2f2;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-	color: #ffffff;
+	color: #000000;
+  text-align: center;
+  vertical-align: middle;
+  padding: 6px 12px;
+  font-size: 14px;
+}
+.container-features {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color:#ffffff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  color: #000000;
 }
 
 .container-contact {
 	padding-top: 20px;
 	padding-bottom: 50px;
 	color: #4E5152;
-  background-color: #f1f2f2;
+  background-color: #ffffff;
 	/*background: url(../images/background.jpg) no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
