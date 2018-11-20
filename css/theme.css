@@ -4469,7 +4469,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-right {
     float: right !important;
-    margin-right: -15px;
+    margin-right: -32px;
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
@@ -6748,6 +6748,10 @@ h2 {
 }
 
 .navbar .logo {
+background-repeat:no-repeat;
+background-position: center;
+margin-left: 0%;
+max-width: 100%;
 	
 }
 
@@ -6991,7 +6995,7 @@ h2 {
     -o-background-size: cover;
     background-size: cover;
 	color: #000000;
-  text-align: center;
+  text-align: justify;
   vertical-align: middle;
   padding: 6px 12px;
   font-size: 14px;
@@ -7074,4 +7078,11 @@ a.footer-socialicon {
 	.page-header h1 {
 		font-size: 32px;
 	}
+}
+
+.Tradutor {
+
+background-repeat:no-repeat;
+background-position: right;
+margin-left: 0%;
 }
